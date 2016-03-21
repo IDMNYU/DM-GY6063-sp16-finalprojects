@@ -1,0 +1,17 @@
+{
+  "name": "cc-interactive-book",
+  "version": "1.0.0",
+  "description": "An interactive book project for the DM-GY6063 Creative coding class",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify index.js -o bundle.js"
+  },
+  "author": "indefinit",
+  "license": "MIT",
+  "dependencies": {
+    "browserify": "^13.0.0",
+    "iframe-resizer": "^3.5.3",
+    "jquery-browserify": "^1.8.1"
+  }
+}
