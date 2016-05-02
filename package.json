@@ -12,6 +12,7 @@
   "dependencies": {
     "browserify": "^13.0.0",
     "iframe-resizer": "^3.5.3",
-    "jquery-browserify": "^1.8.1"
+    "jquery-browserify": "^1.8.1",
+    "p5": "^0.4.24"
   }
 }
