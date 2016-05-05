@@ -104,6 +104,21 @@ $('document').ready(function(){
       title:"the Firework by Jiayan Li",
       url:"https://thimbleprojects.org/maggiieelee/62432",
       desc:"Life is short as the fireworks, so seize the day and enjoy the moment!"
+    },
+    {
+      title:"Drumpf by Sam Patel",
+      url:"https://thimbleprojects.org/sameehanjpatel/63164",
+      desc:"This is a representation of the inside of Donald Trump's brain as we get closer and closer to the 2016 Presidential Election"
+    },
+    {
+      title:"A Trump voodoo doll by Sam Patel",
+      url:"https://thimbleprojects.org/sameehanjpatel/63166",
+      desc:"This is for those day's when you need to voodoo doll Trump. If I were a Donald Trump voodoo doll."
+    },
+    {
+      title:"An immigrant by Sam Patel",
+      url:"https://thimbleprojects.org/sameehanjpatel/63167",
+      desc:"And this is of course a visualization of which NYC borough will be losing the most people when there is a mass Mexican exodus November 2016."
     }
   ];
   var currSketchId = 0;
