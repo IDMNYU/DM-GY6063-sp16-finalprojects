@@ -46,17 +46,22 @@ a:hover {
   text-decoration: underline;
 }
 
-#forward {
+#forward,#sketch-about {
   display: none;
   top:0;
   left:0;
   width:100%;
   height:100%;
-  background:rgba(255,255,255,1);
   position: absolute;
   z-index: 2000;
-  background:#95FFE9;
   padding-top:4rem;
+}
+#forward {
+  background:#95FFE9;
+}
+
+#sketch-about {
+background:#FF95E9;
 }
 
 .copy-wrapper {
@@ -70,8 +75,12 @@ a:hover {
   margin:1rem auto;
 }
 
-#forward.shown {
+#forward.shown, #sketch-about.shown {
   display:block;
+}
+
+#sketch-about-link.shown {
+  visibility: visible;
 }
 
 .forward-link a {
@@ -100,7 +109,7 @@ h1.title-shown {
   position: absolute; 
   top:1.5rem;
   left:1.0rem;
-  width:350px;
+  width:50%;
   height:50px;
   z-index:100;
 }
@@ -109,6 +118,13 @@ h1.title-shown {
   color:black;
   background:white;
 }
+#sketch-about-link {
+  color:white !important;
+  background: black !important;
+  visibility: hidden;
+}
+
+
 #menu.shown {
   opacity: 1;
 }
@@ -172,4 +188,14 @@ h1.title-shown {
   margin:0;
   padding:0;
   list-style: none;
+}
+.sidebar-body ul li {
+  line-height: 2rem;
+}
+.sidebar-body ul li:nth-child(3n){
+  margin-bottom: 1.5rem;
+}
+
+#sketch-about-link{
+
 }
