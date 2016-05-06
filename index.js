@@ -41,8 +41,13 @@ $('document').ready(function(){
     },
     {
       title:"great again by Melissa Garber",
-      url:"https://thimbleprojects.org/jargonbingo/61630/",
+      url:"https://thimbleprojects.org/jargonbingo/63696/",
       desc:"I recreated Donald Trump's infamous \"Make America Great Again\" hat using adjectives from his speech where he announced his candidacy for president to fill in alternatives for the word \"great.\" I photoshopped a hat onto an image of him and used different images of his mouth to mimic him speaking as you click and change the slogan on his hat."
+    },
+    {
+      title:"if Donald Trump was a poet by Melissa Garber",
+      url:"https://thimbleprojects.org/jargonbingo/64026/",
+      desc:"Using the haiku generator interactive example from class, I created a haiku generator using Trump's presidential announcement speech text."
     },
     {
       title:"blank by Yu Shi",
@@ -130,7 +135,7 @@ $('document').ready(function(){
       desc:"If I were a Sailboat I would travel around the world. I would explore the seven seas and sleep with the stars. If I were a Sailboat I would ..."
     },
     {
-      title:"An angry bee",
+      title:"An angry bee by Tatiana Pilon",
       url:"https://thimbleprojects.org/tatipilon/63759",
       desc:"If I were an angry bee, a boy or a single lady I would make a lemonade."
     },
@@ -180,7 +185,7 @@ $('document').ready(function(){
       desc:"If I Were a Moving Poem is a temporary poem making act between human and computer in which the human tries to catch words thrown out by the computer by moving their cursor rapidly over the words. No poem is ever recorded but is constantly updated on the page and in the human's mind."
     },
     {
-      title:"a Never Ending Poem",
+      title:"a Never Ending Poem by Marijke Jorritsma",
       url:"https://thimbleprojects.org/marijkejorritsma/63927/",
       desc:"In this poem, the user catches words by moving their cursor over randomly generated words. As the user participates in catching the words they are directed to making a composition."
     }
@@ -267,6 +272,12 @@ $('document').ready(function(){
     p.mouseMoved = function(){
       resetTimer();
       showRefreshHint(p.mouseY);
+    };
+    p.keyPressed = function(){
+      if(p.keyCode === p.ESCAPE){
+        $('.shown').not('#sketch-about-link').removeClass('shown');
+      }
+      return false;
     };
   };
   var myP5 = new p5(sketch);

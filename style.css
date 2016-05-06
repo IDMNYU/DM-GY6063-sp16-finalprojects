@@ -172,7 +172,7 @@ h1.title-shown {
   z-index: 1000;
   visibility: hidden;
   width: 32rem;
-  overflow: scroll;
+  overflow-y: scroll;
 }
 
 #sidebar span{
