@@ -119,6 +119,31 @@ $('document').ready(function(){
       title:"An immigrant by Sam Patel",
       url:"https://thimbleprojects.org/sameehanjpatel/63167",
       desc:"And this is of course a visualization of which NYC borough will be losing the most people when there is a mass Mexican exodus November 2016."
+    },
+    {
+      title:"An Aurora Borealis by Tatiana Pilon",
+      url:"https://thimbleprojects.org/tatipilon/63688/",
+      desc:"If I was an Aurora Borealis, I would live in the North Pole. I would come at night and brighten your darkness. I would be colorful and cheerful to contrast the solitude and emptiness of my own being."
+    },
+    {
+      title:"A Sailboat by Tatiana Pilon",
+      url:"https://thimbleprojects.org/tatipilon/63751/",
+      desc:"If I were a Sailboat I would travel around the world. I would explore the seven seas and sleep with the stars. If I were a Sailboat I would ..."
+    },
+    {
+      title:"An angry bee",
+      url:"https://thimbleprojects.org/tatipilon/63759",
+      desc:"If I were an angry bee, a boy or a single lady I would make a lemonade."
+    },
+    {
+      title:"The Big Bang Theory by Claire Menegus",
+      url:"https://thimbleprojects.org/cm3884/63731",
+      desc:"The theme of my three sketches are outer space. If I were a galaxy, a snapshot of space as we know it, and if I were the big bang theory. This first sketch illustrates the big bang theory in an interactive way. If I were a big bang, I would continue and never stop generating new life, energy and matter."
+    },
+    {
+      title:"A Galaxy by Claire Menegus",
+      url:"https://thimbleprojects.org/cm3884/63747",
+      desc:"We exist in the milk way galaxy, but there are millions (billions?) more out there. We aren't even sure how they form. This sketch illustrates how galaxies form, the generation and death of stars, and just how massive and active space can be."
     }
   ];
   var currSketchId = 0;
