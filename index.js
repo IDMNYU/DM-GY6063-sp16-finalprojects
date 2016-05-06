@@ -143,6 +143,46 @@ $('document').ready(function(){
       title:"A Galaxy by Claire Menegus",
       url:"https://thimbleprojects.org/cm3884/63747",
       desc:"We exist in the milk way galaxy, but there are millions (billions?) more out there. We aren't even sure how they form. This sketch illustrates how galaxies form, the generation and death of stars, and just how massive and active space can be."
+    },
+    {
+      title:"If Robin were a Millennial by April Mutuc",
+      url: "https://thimbleprojects.org/aprilmutuc/64003/",
+      desc:""
+    },
+    {
+      title:"If Superman were 8bit & Chubs by April Mutuc",
+      url:"https://thimbleprojects.org/aprilmutuc/63962/",
+      desc:""
+    },
+    {
+      title:"in charge of the Bat Sign by April Mutuc",
+      url:"https://thimbleprojects.org/aprilmutuc/63623/",
+      desc:""
+    },
+    {
+      title:"a hungry beagle by Jasmine Chabra",
+      url:"https://thimbleprojects.org/jkc276/64029",
+      desc:"f I were a hungry beagle, my eyes would follow a bone."
+    },
+    {
+      title:"Adele singing hello by Jasmine Chabra",
+      url:"https://thimbleprojects.org/jkc276/64088",
+      desc:"The background colors change at certain points of the song. Each color coordinates with specific words and sounds within the song."
+    },
+    {
+      title:"a Disappearing Poem by Marijke Jorritsma",
+      url:"https://thimbleprojects.org/marijkejorritsma/63947/",
+      desc:"In this first sketch the user clicks to generate a series of words which they will not see unless they've laid a background for the words to be revealed on. The act of making the poem with the computer is an ongoing act of layering, clicking, obscuring, and editing the words that the computer gives the human. "
+    },
+    {
+      title:"a Moving Poem by Marijke Jorritsma",
+      url:"https://thimbleprojects.org/marijkejorritsma/63920/",
+      desc:"If I Were a Moving Poem is a temporary poem making act between human and computer in which the human tries to catch words thrown out by the computer by moving their cursor rapidly over the words. No poem is ever recorded but is constantly updated on the page and in the human's mind."
+    },
+    {
+      title:"a Never Ending Poem",
+      url:"https://thimbleprojects.org/marijkejorritsma/63927/",
+      desc:"In this poem, the user catches words by moving their cursor over randomly generated words. As the user participates in catching the words they are directed to making a composition."
     }
   ];
   var currSketchId = 0;
