@@ -282,7 +282,9 @@ $('document').ready(function(){
     }
   ];
   var currSketchId = 0;
-  iFrameResize();
+  iFrameResize({
+    checkOrigin: false
+  });
   
   function getCurrSketch(){
     return sketches[currSketchId];
@@ -315,7 +317,6 @@ $('document').ready(function(){
     showAbout( getCurrSketch() );
   });
   $('.close').click(function(e){
-    console.log('clicked');
     e.preventDefault();
     e.stopPropagation();
     $('#sidebar').removeClass('sb-shown');

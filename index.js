@@ -281,7 +281,9 @@ $('document').ready(function(){
     }
   ];
   var currSketchId = 0;
-  iFrameResize();
+  iFrameResize({
+    checkOrigin: false
+  });
   
   function getCurrSketch(){
     return sketches[currSketchId];
