@@ -90,9 +90,24 @@ $('document').ready(function(){
       desc:"If I were an alien, I would see the world upside down. The rain would rise to the grass and the grass would grow downward. It would sway side to side like windshield wipers. In this sketch, the grass sways when you press the right and left arrow keys and mouse clicks produce more rain drops."
     },
     {
+      title:"Unicorn World by Irina Uk",
+      url:"https://thimbleprojects.org/irinauk01/61665",
+      desc:"If I were an alien, I would be able to visit alternate worlds, such as unicorn world. I would see mystical creatures and colourful traveling trees. "
+    },
+    {
       title:"an animal by Erica Jones",
       url:"https://thimbleprojects.org/ejonescc16/61689/",
       desc:"If were an animal... I would be a lioness. This is a sketch of of lioness with changing eye color. The bottom is a mad lib of an (altered) quote from the Lion the Witch and the Wardrobe. \"Only you mustn't press him. He is wild you know. Not like a tame lion.\" - C.S. Lewis"
+    },
+    {
+      title:"my ipod by Erica Jones",
+      url:"https://thimbleprojects.org/ejonescc16/64114/",
+      desc:" Here are some of my favorite artists through the year. From the year of their first album to (some of) their deaths."
+    },
+    {
+      title:"my coding journey by Erica Jones",
+      url:"https://thimbleprojects.org/ejonescc16/63918/",
+      desc:"The glass case of emotions I feel while learning how to code."
     },
     {
       title:"the ant, by Jiayan Li",
@@ -140,6 +155,26 @@ $('document').ready(function(){
       desc:"If I were an angry bee, a boy or a single lady I would make a lemonade."
     },
     {
+      title:"moody by Rui Su",
+      url:"https://thimbleprojects.org/sus09007/64195",
+      desc:"A canvas that allows you draws your mood.Click to change background."
+    },
+    {
+      title:"expressive by Rui Su",
+      url:"https://thimbleprojects.org/sus09007/64184",
+      desc:"This sketch allows imputing words that describes feelings and printing random pages of the emotion. Drag to clear the canvas."
+    },
+    {
+      title:"composing haiku by Rui Su",
+      url:"https://thimbleprojects.org/sus09007/64193",
+      desc:"Generate haiku for the view."
+    },
+    {
+      title:"a snapshot of outer space by Claire Menegus",
+      url:"https://thimbleprojects.org/cm3884/64185",
+      desc:"My last project is a \"snapshot\" of outer space. It reflects the diversity of gravity levels between matter and how chaotic space can be. If I were a space, as we know it, I'd be full of energy and chaos. I hope to add more to this sketch in the future, possibly a GUI that allows users to zoom into different aspects of the sketch."
+    },
+    {
       title:"The Big Bang Theory by Claire Menegus",
       url:"https://thimbleprojects.org/cm3884/63731",
       desc:"The theme of my three sketches are outer space. If I were a galaxy, a snapshot of space as we know it, and if I were the big bang theory. This first sketch illustrates the big bang theory in an interactive way. If I were a big bang, I would continue and never stop generating new life, energy and matter."
@@ -175,6 +210,11 @@ $('document').ready(function(){
       desc:"The background colors change at certain points of the song. Each color coordinates with specific words and sounds within the song."
     },
     {
+      title:"a poem by Jasmine Chabra",
+      url:"https://thimbleprojects.org/jkc276/64141/",
+      desc:" This poem is called \"It's Dark in Here\" from the children's poetry book, \"Where the Sidewalk Ends.\" In this sketch, the nouns and adjectives change randomly."
+    },
+    {
       title:"a Disappearing Poem by Marijke Jorritsma",
       url:"https://thimbleprojects.org/marijkejorritsma/63947/",
       desc:"In this first sketch the user clicks to generate a series of words which they will not see unless they've laid a background for the words to be revealed on. The act of making the poem with the computer is an ongoing act of layering, clicking, obscuring, and editing the words that the computer gives the human. "
@@ -188,6 +228,56 @@ $('document').ready(function(){
       title:"a Never Ending Poem by Marijke Jorritsma",
       url:"https://thimbleprojects.org/marijkejorritsma/63927/",
       desc:"In this poem, the user catches words by moving their cursor over randomly generated words. As the user participates in catching the words they are directed to making a composition."
+    },
+    {
+      title:"Andy Warhol by Aurora Brigham",
+      url:"https://thimbleprojects.org/aurobri/64015/",
+      desc:"If I were Andy Warhol Rihanna would be my muse. Rihanna is first of all (in my opinion) one of the most interestingly beautiful woman today. She also has a vulnerable quality, talent and attraction to scandal, which is something Warhol often was enchanted by in his subjects. Rihanna has been through many ordeals, and most of them have been played out in front of the public eye, as many of Warhol’s subjects were surrounded by scandal, and experienced their lowest moments in front of the world."
+    },
+    {
+      title:"a Step by Aurora Brigham",
+      url:"https://thimbleprojects.org/aurobri/64111/",
+      desc:"Moving my body is one of the most important things to me and I like to keep track of how many steps I take each day. Last summer tracking my steps became a bit of an obsession and it was fun to try to always reach my goal of at least 10 000 steps, which is the daily recommended amount.",
+    },
+    {
+      title:"a Structure by Aurora Brigham",
+      url:"https://thimbleprojects.org/aurobri/64161",
+      desc:"If I were a structure I would build myself with multiple layers, square shapes and beautiful colors. This sketch is an iteration of my week 7 lissajous curv, my favorite design from the homework. I spent a lot of time playing around with it, and ended up with a larger design and a really cool structure with lovely pastel colors."
+    },
+    {
+      title:"On the Dark Side of the Moon by Patrick Moraitis",
+      url:"https://thimbleprojects.org/patrickmoraitis/64196",
+      desc:"A single light particles journey through the wall, where thou shall finds ones true colors."
+    },
+    {
+      title:"a Color Trademark Lawyer by Patrick Moraitis",
+      url:"https://thimbleprojects.org/patrickmoraitis/64199",
+      desc:"Color & trademarks don't go well together. such similar colors!"
+    },
+    {
+      title:"an Endless Amount of Possibilities by Patrick Moraitis",
+      url:"https://thimbleprojects.org/patrickmoraitis/64200",
+      desc:"A deck of 52 playing cards has an almost unlimited amount of unique ways of being shuffled. In fact, the number of combinations a pack of 52 cards represents is more than the total number of atoms on the planet."
+    },
+    {
+      title:"love by Inna Sheflyand",
+      url:"https://thimbleprojects.org/pumpon/64156/",
+      desc:""
+    },
+    {
+      title:"love 2 by Inna Sheflyand",
+      url:"https://thimbleprojects.org/pumpon/64131/",
+      desc:"If I were LOVE, I heart would beat in crazy patterns. If I were LOVE, I'd love you all."
+    },
+    {
+      title:"a Spider/Architect by Michael Ochoa",
+      url:"https://thimbleprojects.org/mno230/64155/",
+      desc:"Homage to the late architect Zaha Hadid and Reincarnation. Her creations are an intense combination between technology and nature. She passed recently, I hope she reincarnates as a spider..."
+    },
+    {
+      title:"a Drag Queen Politician by Michael Ochoa",
+      url:"https://thimbleprojects.org/mno230/64159/",
+      desc:"This piece aims to frame us within the reality-show / joke, that is now our once-sacred democracy. It is only the user reflected that can make a change, everything else is a drag and a spectacle. Drag culture makes fun of the superficiality of gender and humanity. Click and Drag, hold and pose for doomed and derivative, republican and democratic: wig options FOR YOU!"
     }
   ];
   var currSketchId = 0;
@@ -208,6 +298,8 @@ $('document').ready(function(){
       "\"><a href=\"#\">"+ sketches[sketch].title + "</a></li>"
     );
   }
+  $('.loading-icon').hide();
+
   $('.home').click(function(e){
     $('#sketch-about-link').removeClass('shown');
   });
@@ -237,8 +329,12 @@ $('document').ready(function(){
     //var src = $(this).attr('href');
     $('iframe').attr('src', src);
     $('#sketch-about-link').addClass('shown');
-    $('h1').removeClass('title-shown');
+    $('#book-title').removeClass('title-shown');
     $('#sidebar').removeClass('sb-shown');
+    $('.loading-icon').show();
+  });
+  $('iframe').load(function() {
+    $('.loading-icon').hide();
   });
 
   function showRefreshHint(mousePos){
@@ -255,27 +351,31 @@ $('document').ready(function(){
       $('#menu').removeClass('shown');
      }
   }
+  /*
   function resetTimer() {
     clearTimeout(inactivityTime);
-    inactivityTime = setTimeout(logout, 3000);
+    inactivityTime = setTimeout(logout, 6000);
   }
   function logout() {
     if ($('#menu').hasClass('shown')) {
       $('#menu').removeClass('shown');
     }
   }
+  */
+ var students = ["morgan", "Mellisa", "Lillian", "Irina", "Patrick"];
   var sketch = function (p){
     p.setup = function(){
       p.noCanvas();
-      resetTimer();
+      //resetTimer();
     };
     p.mouseMoved = function(){
-      resetTimer();
-      showRefreshHint(p.mouseY);
+      // resetTimer();
+      // showRefreshHint(p.mouseY);
     };
     p.keyPressed = function(){
       if(p.keyCode === p.ESCAPE){
-        $('.shown').not('#sketch-about-link').removeClass('shown');
+        $('.sb-shown').removeClass('sb-shown');
+        $('.shown').not('#sketch-about-link, #menu').removeClass('shown');
       }
       return false;
     };

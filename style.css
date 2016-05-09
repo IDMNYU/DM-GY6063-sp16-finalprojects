@@ -34,10 +34,6 @@ a {
   z-index: 2000;
 }
 
-.title-wrapper {
-  height:100%;
-}
-
 .close:hover {
   text-decoration: none;
 }
@@ -57,22 +53,34 @@ a:hover {
   padding-top:4rem;
 }
 #forward {
-  background:#95FFE9;
+  background:rgba(149,255,233,0.89);
 }
 
 #sketch-about {
-background:#FF95E9;
+background:rgba(255,149,233,0.89);
 }
 
 .copy-wrapper {
   width:100%;
-  position:absolute;
+  /*position:absolute;
+  top:0;
+  z-index: 2001;*/
+}
+#sketch-about .copy-wrapper {
   top:10rem;
-  z-index: 2001;
 }
 .copy-wrapper p, .copy-wrapper h2 {
   max-width:40rem;
   margin:1rem auto;
+  line-height: 1.5rem;
+}
+.copy-wrapper a {
+  color:black;
+  border-bottom: 1px dotted #000;
+}
+.copy-wrapper a:hover {
+  text-decoration: none;
+   border-bottom: 1px solid #000; 
 }
 
 #forward.shown, #sketch-about.shown {
@@ -88,6 +96,9 @@ background:#FF95E9;
 }
 
 h1 {
+  
+}
+#book-title{
   text-align: center;
   position: absolute;
   top:50%;
@@ -95,8 +106,17 @@ h1 {
   left:0;
   display: none;
 }
-h1.title-shown {
+
+#book-title.title-shown {
   display:block;
+}
+
+.loading-icon{
+  text-align: center;
+  position: absolute;
+  top:50%;
+  width:100%;
+  left:0;
 }
 
 #menu {
@@ -124,7 +144,6 @@ h1.title-shown {
   visibility: hidden;
 }
 
-
 #menu.shown {
   opacity: 1;
 }
@@ -133,8 +152,9 @@ h1.title-shown {
   position: absolute;
   top:1rem;
   right:1rem;
-  width:24px;
-  height:24px;
+  width:50px;
+  height:50px;
+  font-size: 40px;
 }
 
 .wrapper{
@@ -184,15 +204,14 @@ h1.title-shown {
   padding:0;
   margin:0;
 }
-.sidebar-body ul {
-  margin:0;
+.sidebar-body ol {
+  margin:0 1.2rem;
   padding:0;
-  list-style: none;
 }
-.sidebar-body ul li {
+.sidebar-body ol li {
   line-height: 2rem;
 }
-.sidebar-body ul li:nth-child(3n){
+.sidebar-body ol li:nth-child(3n){
   margin-bottom: 1.5rem;
 }
 
