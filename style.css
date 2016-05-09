@@ -23,6 +23,30 @@ a {
   color: #fff;
   text-decoration: none;
 }
+.prev-nav,.next-nav {
+  position: absolute;
+  width:100px;
+  height:100px;
+  top:50%;
+  z-index: 1000;
+}
+.prev-nav a,.next-nav a{
+  color:rgba(153,153,153,0.12);
+  font-size: 36px;
+}
+
+.prev-nav a:hover,.next-nav a:hover{
+  text-decoration: none;
+  color:rgba(153,153,153,1);
+}
+
+.prev-nav {
+  left: 0;
+}
+.next-nav {
+  text-align: right;
+  right: 0;
+}
 
 #menu-locator {
   position:absolute;
@@ -83,7 +107,7 @@ background:rgba(255,149,233,0.89);
    border-bottom: 1px solid #000; 
 }
 
-#forward.shown, #sketch-about.shown {
+#forward.shown{
   display:block;
 }
 
@@ -100,15 +124,18 @@ h1 {
 }
 #book-title{
   text-align: center;
-  position: absolute;
-  top:50%;
+  /*position: absolute;
+  top:50%;*/
   width:100%;
-  left:0;
+  height:100%;
+  /*left:0;*/
   display: none;
 }
 
-#book-title.title-shown {
-  display:block;
+#book-title.title-shown,#sketch-about.shown {
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
 }
 
 .loading-icon{

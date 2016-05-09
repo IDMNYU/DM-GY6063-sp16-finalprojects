@@ -294,6 +294,14 @@ $('document').ready(function(){
     $('#sketch-about').addClass('shown');
   }
 
+  function setCurrSketch(sketchURL){
+    $('iframe').attr('src', sketchURL);
+    $('#sketch-about-link').addClass('shown');
+    $('#book-title').removeClass('title-shown');
+    $('#sidebar').removeClass('sb-shown');
+    $('.loading-icon').show();
+  }
+
   for(var sketch in sketches){
     $('.proj-links').append(
       "<li data-id=\""+ sketch +
@@ -330,12 +338,23 @@ $('document').ready(function(){
     currSketchId = id;//set the current sketch id
     var src = sketches[currSketchId].url;
     //var src = $(this).attr('href');
-    $('iframe').attr('src', src);
-    $('#sketch-about-link').addClass('shown');
-    $('#book-title').removeClass('title-shown');
-    $('#sidebar').removeClass('sb-shown');
-    $('.loading-icon').show();
+    setCurrSketch(src);
   });
+  $('.prev-nav a, .next-nav a').click(function(e){
+    e.preventDefault();
+    e.stopPropagation();
+    var src;
+    if($(e.target).attr('class') === 'next'){
+      currSketchId++;
+      currSketchId %= sketches.length;
+    } else {
+      currSketchId = (currSketchId - 1 > 0) ? currSketchId -1 : sketches.length-1;
+    }
+    src = sketches[currSketchId].url;
+    setCurrSketch(src);
+    console.log($(e.target).attr('class'));
+  });
+
   $('iframe').load(function() {
     $('.loading-icon').hide();
   });
