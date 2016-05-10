@@ -38,17 +38,17 @@ $('document').ready(function(){
     {
       title: "the Nuclear Option by Melissa Garber",
       url:"https://thimbleprojects.org/jargonbingo/60896",
-      desc:"Using data from the last GOP and DNC debates, I made a data visualization of the number of times words related to Nixon's Nuclear Option (leading up to the word nuclear) are said by both parties in the debate."
+      desc:"Using data from all of the GOP and DNC debates this primary cycle, I made a data visualization of the number of times words related to Nixon's Nuclear Option (leading up to the word nuclear) are said by both parties in the debate."
     },
     {
       title:"great again by Melissa Garber",
       url:"https://thimbleprojects.org/jargonbingo/63696/",
-      desc:"I recreated Donald Trump's infamous \"Make America Great Again\" hat using adjectives from his speech where he announced his candidacy for president to fill in alternatives for the word \"great.\" I photoshopped a hat onto an image of him and used different images of his mouth to mimic him speaking as you click and change the slogan on his hat."
+      desc:"I recreated Donald Trump's infamous \"Make America Great Again\" hat using adjectives from his June 16, 2015 speech where he announced his candidacy for president to fill in alternatives for the word \"great.\" I photoshopped a hat onto an image of him and used different images of his mouth to mimic him speaking as you click and change the slogan on his hat."
     },
     {
       title:"if Donald Trump was a poet by Melissa Garber",
       url:"https://thimbleprojects.org/jargonbingo/64026/",
-      desc:"Using the haiku generator interactive example from class, I created a haiku generator using Trump's presidential announcement speech text."
+      desc:"Using the haiku generator example from class, I created a haiku generator using Trump's June 16, 2015 speech where he announced his candidacy for president."
     },
     {
       title:"blank by Yu Shi",
@@ -62,8 +62,8 @@ $('document').ready(function(){
     },
     {
       title:"a crayon by Yu Shi",
-      url:"https://thimbleprojects.org/yushi16/61675/",
-      desc:""
+      url:"https://thimbleprojects.org/yushi16/63628/",
+      desc:" I create a drawing board and hope people could draw with \"me\". Have some fun with different color combination and size, create your own piece."
     },
     {
       title:"Goul at the museum by Lillian Warner",
@@ -261,16 +261,6 @@ $('document').ready(function(){
       desc:"A deck of 52 playing cards has an almost unlimited amount of unique ways of being shuffled. In fact, the number of combinations a pack of 52 cards represents is more than the total number of atoms on the planet."
     },
     {
-      title:"love by Inna Sheflyand",
-      url:"https://thimbleprojects.org/pumpon/64156/",
-      desc:""
-    },
-    {
-      title:"love 2 by Inna Sheflyand",
-      url:"https://thimbleprojects.org/pumpon/64131/",
-      desc:"If I were LOVE, I heart would beat in crazy patterns. If I were LOVE, I'd love you all."
-    },
-    {
       title:"a Spider/Architect by Michael Ochoa",
       url:"https://thimbleprojects.org/mno230/64155/",
       desc:"Homage to the late architect Zaha Hadid and Reincarnation. Her creations are an intense combination between technology and nature. She passed recently, I hope she reincarnates as a spider..."
@@ -279,6 +269,20 @@ $('document').ready(function(){
       title:"a Drag Queen Politician by Michael Ochoa",
       url:"https://thimbleprojects.org/mno230/64159/",
       desc:"This piece aims to frame us within the reality-show / joke, that is now our once-sacred democracy. It is only the user reflected that can make a change, everything else is a drag and a spectacle. Drag culture makes fun of the superficiality of gender and humanity. Click and Drag, hold and pose for doomed and derivative, republican and democratic: wig options FOR YOU!"
+    },
+    {
+      title:"in charge of the sea... by Michael Ochoa",
+      url:"https://thimbleprojects.org/mno230/64158/",
+      desc:"The sea is unpredictable, just like the shapes of architect Zaha Hadid. She also painted and designed all sorts of objects (like this yacht in the middle of the ocean...). She had her own route, regardless of the tides. Click to move the tide randomly around the screen."
+    },    {
+      title:"love by Inna Sheflyand",
+      url:"https://thimbleprojects.org/pumpon/64156/",
+      desc:""
+    },
+    {
+      title:"love 2 by Inna Sheflyand",
+      url:"https://thimbleprojects.org/pumpon/64131/",
+      desc:"If I were LOVE, I heart would beat in crazy patterns. If I were LOVE, I'd love you all."
     }
   ];
   var currSketchId = 0;
